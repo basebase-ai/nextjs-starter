@@ -28,14 +28,14 @@ import { appConfig } from '../../config';
 
 function Logo() {
   const { colorScheme } = useMantineColorScheme();
-  const logoUrl = 'https://www.basebase.ai/preview.png';
+  const logoUrl = 'http://localhost:3000/api/test-image';
 
   return (
     <Image
       src={logoUrl}
       alt="BaseBase Logo"
-      width={120}
-      height={90}
+      width={32}
+      height={32}
       fit="contain"
     />
   );
