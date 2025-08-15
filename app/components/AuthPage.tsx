@@ -171,8 +171,7 @@ export function AuthPage() {
   return (
     <Center style={{ minHeight: '100vh' }}>
       <Stack align="center" gap="xl">
-      <Logo logoUrl='/api/test-image' />
-      <Logo logoUrl='https://editor.basebase.ai/api/test-image' />
+      <Logo logoUrl='https://www.basebase.ai/preview.png' />
       <Title order={1} size="h1" ta="center">
           {appConfig.name}
         </Title>
