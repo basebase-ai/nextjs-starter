@@ -26,9 +26,8 @@ import {
 } from 'basebase-js';
 import { appConfig } from '../../config';
 
-function Logo() {
+function Logo({ logoUrl }: { logoUrl: string }) {
   const { colorScheme } = useMantineColorScheme();
-  const logoUrl = 'http://localhost:3000/api/test-image';
 
   return (
     <Image
@@ -172,8 +171,9 @@ export function AuthPage() {
   return (
     <Center style={{ minHeight: '100vh' }}>
       <Stack align="center" gap="xl">
-        <Logo />
-        <Title order={1} size="h1" ta="center">
+      <Logo logoUrl='/api/test-image' />
+      <Logo logoUrl='https://editor.basebase.ai/api/test-image' />
+      <Title order={1} size="h1" ta="center">
           {appConfig.name}
         </Title>
         <Text size="lg" ta="center" c="dimmed">
