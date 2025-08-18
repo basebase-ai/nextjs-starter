@@ -1,5 +1,3 @@
-# Mantine Next Template
+# NextJS Starter App for Basebase
 
-Get started with the template by clicking `Use this template` button on the top of the page.
-
-[Documentation](https://mantine.dev/guides/next/)
+Use this project as a template if you want to build a new NextJS on Basebase.
