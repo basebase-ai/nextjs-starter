@@ -22,7 +22,7 @@ export function FloatingActionButton() {
         position: 'fixed',
         bottom: '20px',
         right: '20px',
-        background: 'darkgoldenrod',
+        background: 'purple',
 
         color: 'white',
         border: 'none',
