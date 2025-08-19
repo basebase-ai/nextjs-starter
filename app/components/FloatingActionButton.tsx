@@ -22,7 +22,8 @@ export function FloatingActionButton() {
         position: 'fixed',
         bottom: '20px',
         right: '20px',
-        background: 'linear-gradient(45deg, var(--mantine-color-violet-6), var(--mantine-color-blue-6))',
+        background: 'darkgoldenrod',
+
         color: 'white',
         border: 'none',
         borderRadius: '50px',
